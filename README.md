@@ -1,6 +1,6 @@
 # Welcome to SiCoreLadder
 
-**Agents work for you. The universe awaits.**
+**Agents work for you, the universe awaits.**
 
 *(中文: 智能为你工作，世界等你探索。)*
 

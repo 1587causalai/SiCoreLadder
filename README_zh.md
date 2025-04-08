@@ -1,7 +1,7 @@
 # SiCoreLadder
 
 **标语 (中文):** 智能为你工作，世界等你探索。
-**Slogan (English):** Agents work for you. The universe awaits.
+    **Slogan (English):** Agents work for you. The universe awaits.
 
 ---
 
