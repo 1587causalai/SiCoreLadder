@@ -11,10 +11,16 @@
 <body>
   <div id="app"></div>
   <script>
+    // Dynamically set basePath based on hostname
+    const repoName = 'SiCoreLadder'; // Define your repository name here
+    const isGitHubPages = window.location.hostname.endsWith('github.io');
+    const basePath = isGitHubPages ? `/${repoName}/` : '/';
+
     window.$docsify = {
       name: 'SiCoreLadder',
       repo: '', // Optional: Add your repo URL here e.g. 'https://github.com/your-org/your-repo'
       loadSidebar: true,
+      basePath: basePath, // <-- Use the dynamically determined basePath
       loadCoverPage: true, // Enable cover page
       maxLevel: 4,        // Set max heading level for TOC
       subMaxLevel: 2,     // Auto add headings to sidebar up to level 2
