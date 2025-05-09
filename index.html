@@ -12,22 +12,20 @@
   <div id="app"></div>
   <script>
     // Dynamically set basePath based on hostname
-    // const repoName = 'SiCoreLadder'; // Define your repository name here
-    // const isGitHubPages = window.location.hostname.endsWith('github.io');
-    // const basePath_dynamic = isGitHubPages ? `/${repoName}/` : '/'; // Renamed to avoid conflict
+    const repoName = 'SiCoreLadder'; // Define your repository name here
+    const isGitHubPages = window.location.hostname.endsWith('github.io');
+    const dynamicBasePath = isGitHubPages ? `/${repoName}/` : '/'; // Ensure this variable name is unique if previous 'basePath' was used globally
 
     window.$docsify = {
       name: 'SiCoreLadder',
       repo: '', // Optional: Add your repo URL here e.g. 'https://github.com/your-org/your-repo'
       loadSidebar: true,
-      // basePath: basePath_dynamic, // <-- Temporarily comment out dynamic basePath
-      basePath: '/', // <--- USE FIXED PATH FOR LOCAL TESTING
-      coverpage: true, // Ensured coverpage is true
-      maxLevel: 4,        // Set max heading level for TOC
-      subMaxLevel: 2,     // Auto add headings to sidebar up to level 2
-      auto2top: true,     // Scroll to top when route changes
-      // docsify-sidebar-collapse configuration
-      sidebarDisplayLevel: 1, // Expand level 1 by default, collapse deeper levels
+      basePath: dynamicBasePath, // <-- USE THE DYNAMICALLY DETERMINED basePath
+      coverpage: true, 
+      maxLevel: 4,        
+      subMaxLevel: 2,     
+      auto2top: true,     
+      sidebarDisplayLevel: 1, 
     }
   </script>
   <!-- Docsify v4 -->
