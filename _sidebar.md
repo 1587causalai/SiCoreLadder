@@ -1,11 +1,7 @@
 *   [**Home**](/) <!-- 首页链接 -->
-
-*   **Core Philosophy** <!-- 核心理念部分 -->
-    *   [Vision & Mission](./VISION_AND_MISSION.md) <!-- 链接到英文版 -->
-    *   [Foundational Questions](./FOUNDATIONAL_QUESTIONS.md) <!-- 链接到英文版 -->
-
-
+*   [Vision & Mission](./VISION_AND_MISSION.md) <!-- 链接到英文版 -->
 *   Appendix
+    *   [Foundational Questions](./FOUNDATIONAL_QUESTIONS.md) <!-- 链接到英文版 -->
     *   **Chinese Versions**
         *   [README](./README_zh.md)
         *   [愿景与使命](./VISION_AND_MISSION_zh.md)

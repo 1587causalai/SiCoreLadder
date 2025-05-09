@@ -1,18 +1,23 @@
 # Welcome to SiCoreLadder
 
-**Agents work for you, the universe awaits.**
+**Deep-seeking AI. Seamless Collaboration. Human-centric Applications.**
 
-*(中文: 智能为你工作，世界等你探索。)*
+*(中文: 研究更深度求索的AI系统，探索人机协作未来，打造以人为本的AI应用。)*
 
 ---
 
-SiCoreLadder is dedicated to exploring and shaping a future where **deep integration between humans and artificial intelligence** unlocks unprecedented potential. We believe this transformation goes beyond mere automation, fundamentally reshaping what it means to be human and opening pathways to pursue grander goals, from profound understanding to cosmic exploration.
+SiCoreLadder is committed to pioneering a future of harmonious human-AI coexistence. Our core mission focuses on three interconnected strategic directions:
+
+1.  **Deep-seeking AI Systems:** Developing AI with a profound, ever-evolving understanding of the world, focusing on aspects like causal inference to build robust, trustworthy, and deeply insightful AI engines.
+2.  **Seamless Human-AI Collaboration:** Innovating personalized and effective human-AI interaction models and frameworks to make AI a true partner.
+3.  **Human-centric AI Applications:** Translating advanced AI capabilities and collaborative insights into practical, human-centric applications that address real-world needs and enhance individual capabilities.
+
+We achieve this through our unique approach: leveraging a **SiCore** (Solid Intelligent Core) continuously advanced by our research, and applying the **Ladder** (Pragmatic Climbing Steps) methodology—a cycle of observation, creation, and reflection—in all our endeavors. Our goal is to make advanced AI accessible and beneficial for every unique individual, with a profound respect for human values and experience.
 
 **Dive deeper into our philosophy:**
 
-*   **[Vision & Mission](./VISION_AND_MISSION.md):** Understand our core beliefs, our role in building the future (SiCore + Ladder), and our ultimate aspirations.
+*   **[Vision & Mission](./VISION_AND_MISSION.md):** Understand our core mission, our unique approach (SiCore + Ladder), and our vision for an AI-empowered future.
 *   **[Foundational Questions](./FOUNDATIONAL_QUESTIONS.md):** Explore the fundamental "Why" behind SiCoreLadder's existence.
 
 Use the sidebar to navigate through all available documents, including Chinese versions.
 
---- 

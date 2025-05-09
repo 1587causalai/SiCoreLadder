@@ -1,20 +1,26 @@
 # SiCoreLadder
 
-**标语 (中文):** 智能为你工作，世界等你探索。
-    **Slogan (English):** Agents work for you. The universe awaits.
+**标语 (中文):** 研究更深度求索的AI系统，探索人机协作未来，打造以人为本的AI应用。
+    **Slogan (English):** Deep-seeking AI. Seamless Collaboration. Human-centric Applications.
 
 ---
 
-本仓库是探索和定义 SiCoreLadder 公司理念、战略及未来实践的空间。
+本仓库是探索和定义 SiCoreLadder 公司核心理念、战略方向及未来实践的空间。SiCoreLadder 致力于开创人与AI和谐共生的未来，我们的核心使命聚焦于三个紧密相连的战略方向：
 
-## 核心理念文档
+1.  **研究更深度求索的 AI 系统：** 发展对世界具有深刻且持续精进理解能力的AI，专注于因果推断等方面，以构建鲁棒、值得信赖且富有深刻洞察力的AI引擎。
+2.  **探索人机协作未来：** 创新个性化且高效的人机交互模型与框架，使AI成为真正的伙伴。
+3.  **打造以人为本的 AI 应用：** 将先进的AI能力和协作洞见转化为解决实际需求、提升个体能力的实用、且真正以人为中心的AI应用。
 
-本项目包含以下核心文档，用于阐述 SiCoreLadder 的基本思想：
+我们通过独特的方法实现这一目标：依托我们研究持续精进的 **SiCore (坚实智能核心)**，并运用 **Ladder (务实攀登阶梯)** 的方法论——一个贯穿于我们所有工作的"观察-创造-反思"的循环。我们的目标是让先进的AI普惠每一个独特的个体，并深切尊重人的价值与体验。
 
-1.  **[愿景与使命 (中文)](./VISION_AND_MISSION_zh.md)**
-    *   **内容:** 阐述 SiCoreLadder 的核心认知、扮演的角色（SiCore + Ladder）、终极愿景以及指导原则。
+## 核心理念与实践文档
+
+深入了解我们的理念与实践：
+
+1.  **[愿景、使命与实践路径 (中文)](./VISION_AND_MISSION_zh.md)**
+    *   **内容:** 阐述 SiCoreLadder 的核心使命（三大战略方向）、我们的独特方法论（SiCore + Ladder）以及我们对AI赋能未来的愿景。
     *   **定位:** 公司的**身份**、**战略蓝图**和**行动纲领**。
-    *   **[Vision & Mission (English)](./VISION_AND_MISSION.md)** (英文版本)
+    *   **[Vision & Mission (English)](./VISION_AND_MISSION.md)** (英文版本，待更新以匹配中文版最新内容)
 
 2.  **[根本性追问 (中文)](./FOUNDATIONAL_QUESTIONS_zh.md)**
     *   **内容:** 探讨创建 SiCoreLadder 的根本动机（为何必要？为何是我？如何造福人类？）。
