@@ -1,4 +1,4 @@
-*   [**Home**](/) <!-- 首页链接 -->
+*   [**Home**](./README.md) <!-- 首页链接 -->
 *   [Vision & Mission](./VISION_AND_MISSION.md) <!-- 链接到英文版 -->
 *   Appendix
     *   [Foundational Questions](./FOUNDATIONAL_QUESTIONS.md) <!-- 链接到英文版 -->
