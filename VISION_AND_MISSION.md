@@ -1,6 +1,6 @@
 # SiCoreLadder: Shaping an Intelligent Future, Together
 
-> **Deep-seeking AI. Seamless Collaboration. Human-centric Applications.**
+> **Causality-seeking AI. Seamless Collaboration. Human-centric Applications.**
 
 
 ## Introduction: The Opportunity of Our Era and Our Choice
@@ -11,21 +11,21 @@ The wave of artificial intelligence is reshaping our world with unprecedented fo
 
 SiCoreLadder's core mission focuses on the following three interconnected and progressive strategic directions, which form the center of our actions now and in the near future:
 
-1.  **Deep-seeking AI Systems:**
-    We are committed to pushing the existing boundaries of AI intelligence, exploring and building AI systems truly capable of profound and ever-evolving understanding. Our focus is not only on model scale or processing speed but, more crucially, on AI's relentless pursuit of insight into the world's complexities, its underlying mechanisms, and causal relationships. To this end, we will continuously invest in cutting-edge research, such as deeply integrating causal inference frameworks and algorithms into the entire AI construction pipeline (from data synthesis and pre-training to preference alignment), aiming to create more robust, trustworthy, and deeply insightful AI engines. This is our technological cornerstone for empowering the future.
+1.  **Causality-seeking AI Systems:**
+    We are committed to transcending the current boundaries of AI intelligence by exploring and building AI systems truly capable of understanding and reasoning about causality. Our focus is not merely on pattern recognition or predictive accuracy based on correlations, but on the relentless pursuit of AI that comprehends the underlying causal mechanisms of the world. This involves deeply integrating causal discovery, inference, and counterfactual reasoning frameworks into the entire AI construction pipeline (from data synthesis and pre-training to preference alignment). Our aim is to create AI engines that are not only robust and trustworthy but also possess genuine insight and explanability. This commitment to causality-seeking AI is our technological cornerstone for empowering the future.
 
-2.  **Exploring the Future of Human-AI Collaboration:**
-    We believe that AI's value lies not only in replacement but also in acting as a powerful "assistant" to complete complex tasks collaboratively with humans. SiCoreLadder focuses on deepening AI's "assistive" capabilities and firmly believes that personalization is key to unlocking AI's collaborative potential. We will actively develop and promote diverse human-AI collaboration models and frameworks (as explored in our "Me" project), enabling AI to deeply integrate into individual workflows and life scenarios, becoming a true partner that understands and efficiently serves every unique user.
+2.  **Seamless Human-AI Collaboration:**
+    We believe that AI's value lies not only in replacement but also in acting as a powerful "assistant" to complete complex tasks collaboratively with humans. SiCoreLadder focuses on deepening AI's "assistive" capabilities and firmly believes that personalization is key to unlocking AI's collaborative potential. Our exploration into **Seamless Human-AI Collaboration** aims for a profound level of integration, where AI deeply understands individual workflows and life scenarios, becoming a true, intuitive partner that efficiently serves every unique user (as explored in our "Me" project).
 
-3.  **Building Human-centric AI Applications:**
-    We will leverage "Deep-seeking AI Systems" as our technological core and "Exploring the Future of Human-AI Collaboration" as our interaction philosophy. Ultimately, we will translate these accumulations into AI applications that can genuinely solve practical problems and broadly serve human well-being by being fundamentally **human-centric**. We are committed to creating AI products and services that truly understand user needs, respect their autonomy, and enhance their capabilities and experiences (as envisioned for "CursorMate"). By imbuing applications with deep personalization and a human-first approach, we expect to help users improve efficiency, expand capabilities, and make advanced technology truly empowering for every unique individual.
+3.  **Human-centric AI Applications:**
+    We will leverage "Causality-seeking AI Systems" as our technological core and our insights from exploring **Seamless Human-AI Collaboration** as our interaction philosophy. Ultimately, we will translate these accumulations into AI applications that can genuinely solve practical problems and broadly serve human well-being by being fundamentally **human-centric**. We are committed to creating AI products and services that truly understand user needs, respect their autonomy, and enhance their capabilities and experiences (as envisioned for "CursorMate"). By imbuing applications with deep personalization and a human-first approach, we expect to help users improve efficiency, expand capabilities, and make advanced technology truly empowering for every unique individual.
 
 ## II. Our Unique Way: SiCoreLadder's Engine and Methodology
 
 To effectively advance our core mission, SiCoreLadder has developed its unique operational engine and practical methodology, embodied in our name:
 
 1.  **SiCore (Solid Intelligent Core) - Our Technological Engine:**
-    SiCore represents our continuous pursuit and core achievements in developing **Deep-seeking AI Systems.** It is a stable, powerful, trustworthy, and constantly evolving silicon-based intelligent core. This engine not only provides a continuous technological driving force for our seamless human-AI collaboration exploration and human-centric AI application development but also symbolizes our commitment and ambition to challenge the boundaries of AI capabilities and pursue excellent, deeply insightful intelligence.
+    SiCore represents our continuous pursuit and core achievements in developing **Causality-seeking AI Systems.** It is a stable, powerful, trustworthy, and constantly evolving silicon-based intelligent core, infused with the principles of causal understanding. This engine not only provides a continuous technological driving force for our seamless human-AI collaboration exploration and human-centric AI application development but also symbolizes our commitment and ambition to challenge the boundaries of AI capabilities and pursue excellent, truly insightful intelligence.
 
 2.  **Ladder (Pragmatic Climbing Steps) - Our Practical Methodology:**
     Ladder is our fundamental method and action guide for advancing all our work, ensuring that every step is down-to-earth and continuously creates real value. Whether in AI system research, human-AI collaboration model exploration, or AI application development, we adhere to the following practical cycle:

@@ -1,9 +1,9 @@
 <!-- _coverpage.md -->
 
 <!-- Slogan 区域 -->
-> **Deep-seeking AI. Seamless Collaboration. Human-centric Applications.**
+> **Causality-seeking AI. Seamless Collaboration. Human-centric Applications.**
 >
-> **研究更深度求索的AI系统，探索人机协作未来，打造以人为本的AI应用。**
+> **研究洞察因果的AI，探索深度人机协作，打造以人为本的应用。**
 
 <br>
 

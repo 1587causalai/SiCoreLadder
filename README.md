@@ -1,14 +1,14 @@
 # Welcome to SiCoreLadder
 
-**Deep-seeking AI. Seamless Collaboration. Human-centric Applications.**
+**Causality-seeking AI. Seamless Collaboration. Human-centric Applications.**
 
-*(中文: 研究更深度求索的AI系统，探索人机协作未来，打造以人为本的AI应用。)*
+*(中文: 研究洞察因果的AI，探索深度人机协作，打造以人为本的应用。)*
 
 ---
 
 SiCoreLadder is committed to pioneering a future of harmonious human-AI coexistence. Our core mission focuses on three interconnected strategic directions:
 
-1.  **Deep-seeking AI Systems:** Developing AI with a profound, ever-evolving understanding of the world, focusing on aspects like causal inference to build robust, trustworthy, and deeply insightful AI engines.
+1.  **Causality-seeking AI Systems:** Developing AI with a deep understanding of causal relationships in the world, moving beyond correlation to genuine insight, to build robust, trustworthy, and truly intelligent AI engines.
 2.  **Seamless Human-AI Collaboration:** Innovating personalized and effective human-AI interaction models and frameworks to make AI a true partner.
 3.  **Human-centric AI Applications:** Translating advanced AI capabilities and collaborative insights into practical, human-centric applications that address real-world needs and enhance individual capabilities.
 
