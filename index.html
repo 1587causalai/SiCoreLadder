@@ -28,11 +28,12 @@
       name: 'SiCoreLadder',
       repo: '', // Optional: Add your repo URL here e.g. 'https://github.com/your-org/your-repo'
       loadSidebar: !isGitHubPages, // Dynamically load sidebar
+      hideSidebar: isGitHubPages, // Completely hide sidebar on GitHub Pages
       loadNavbar: true,
       basePath: dynamicBasePath, // <-- USE THE DYNAMICALLY DETERMINED basePath
       coverpage: true, 
       maxLevel: 4,        
-      subMaxLevel: isGitHubPages ? 0 : 2,     
+      subMaxLevel: 2,     
       auto2top: true,     
       sidebarDisplayLevel: 1, 
     }
