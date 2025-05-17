@@ -2,7 +2,7 @@
 
 **Causality-seeking AI. Seamless Collaboration. Human-centric Applications.**
 
-*(中文: 研究洞察因果的AI，探索深度人机协作，打造以人为本的应用。)*
+*(中文: 构建洞察因果的AI，探索深度人机协作，打造以人为本的应用。)*
 
 ---
 

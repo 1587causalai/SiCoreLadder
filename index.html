@@ -7,6 +7,14 @@
   <meta name="description" content="SiCoreLadder: Shaping the future of humanity through deep integration with silicon intelligence, empowering exploration and meaning.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    .app-nav > ul {
+      justify-content: flex-start !important; /* For flexbox containers */
+      text-align: left !important; /* For block containers */
+      padding-left: 0 !important; /* Remove any default padding */
+      margin-left: 15px; /* Optional: Add a small margin to align with page content */
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -19,7 +27,8 @@
     window.$docsify = {
       name: 'SiCoreLadder',
       repo: '', // Optional: Add your repo URL here e.g. 'https://github.com/your-org/your-repo'
-      loadSidebar: true,
+      loadSidebar: !isGitHubPages, // Dynamically load sidebar
+      loadNavbar: true,
       basePath: dynamicBasePath, // <-- USE THE DYNAMICALLY DETERMINED basePath
       coverpage: true, 
       maxLevel: 4,        

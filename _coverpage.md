@@ -3,7 +3,7 @@
 <!-- Slogan 区域 -->
 > **Causality-seeking AI. Seamless Collaboration. Human-centric Applications.**
 >
-> **研究洞察因果的AI，探索深度人机协作，打造以人为本的应用。**
+> **构建洞察因果的AI，探索深度人机协作，打造以人为本的应用。**
 
 <br>
 
