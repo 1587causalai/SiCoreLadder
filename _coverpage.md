@@ -8,7 +8,7 @@
 <br>
 
 <!-- 行动号召按钮 -->
-[Get Started](/README.md) 
+[Get Started](/intro.md) 
 [核心理念](/VISION_AND_MISSION.md)
 
 <!-- 
