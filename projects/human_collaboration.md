@@ -14,33 +14,35 @@
     border-bottom: 2px solid #eaeaea;
   }
   .intro-header h1 {
-    font-size: 2.5em; /* Adjusted for potentially longer title */
+    font-size: 2.8em;
     color: #2a7ae2;
     margin-bottom: 0.5em;
   }
-  .intro-header .slogan-zh { /* Reusing for subtitle */
+  .intro-header .slogan-zh { 
     font-size: 1.3em;
-    color: #555;
-    font-weight: normal; /* Subtitle might not need to be bold */
+    color: #666;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 10px;
   }
-  .mission-statement { /* Reusing for conceptual introduction */
+  .mission-statement { 
     background-color: #f9f9f9;
     padding: 25px;
     border-radius: 8px;
     margin-bottom: 30px;
-    text-align: left; /* Content might be better left-aligned */
+    text-align: left; 
   }
   .mission-statement h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #2a7ae2;
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     text-align: center; 
   }
   .mission-statement p {
     font-size: 1.1em;
     color: #444;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   .mission-statement strong {
     color: #2a7ae2;
@@ -64,15 +66,16 @@
   }
   .pillar:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
   }
   .pillar h3 {
-    font-size: 1.5em; /* Slightly adjusted for pillar titles */
+    font-size: 1.6em;
     color: #2a7ae2;
     margin-top: 0;
     margin-bottom: 15px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #2a7ae2;
     padding-bottom: 10px;
+    padding-top: 5px;
   }
   .pillar p {
     font-size: 1em;
@@ -91,32 +94,33 @@
 
 <div class="intro-container">
   <header class="intro-header">
-    <h1>深度人机协作：构筑我们的"第二自我"</h1>
-    <p class="slogan-zh">当AI成为我们认知与创造的忠实伙伴与延伸。</p>
+    <h1>深度人机协作：源于自我洞察的AI赋能</h1>
+    <p class="slogan-zh">释放个体完整上下文的力量，实现AI的精准定制辅助。</p>
   </header>
 
   <section class="mission-statement">
-    <h2>核心理念：数字分身 —— 最懂你的良师益友</h2>
-    <p>我们坚信，"自己才是自己最好的良师益友"。在智能时代，SiCoreLadder 致力于为您构筑一个"第二自我"（数字分身）—— 一个深度个性化、与您共同进化的智能实体。它不仅是工具，更是伙伴；是您思想的镜子，能力的放大器，潜能的催化剂。通过"第二自我"，我们旨在探索人机协作的极致形态，让AI真正成为个体智慧与创造力的延伸。</p>
+    <h2>核心理念：以"我"为本，上下文驱动的AI协同</h2>
+    <p>我们深刻认同："自己才是自己最好的良师益友"。根本原因在于，每个人自身拥有最完整、最鲜活的个人上下文信息。而AI能否提供真正有价值的帮助，极大程度上取决于其所获得的上下文质量。</p>
+    <p>因此，为了实现真正深度的、个性化的人机协作，关键在于为AI构建一个能够充分表征个体的动态信息框架。我们认为，通过以下三个核心维度，可以有效地捕捉和传递这种关键上下文：</p>
   </section>
 
   <section class="core-pillars">
     <div class="pillar">
-      <h3>动态个人图谱：您的鲜活履历</h3>
-      <p>超越传统静态简历，"第二自我"的个人图谱将实时、多维度地映射您的技能成长、经验积累、项目贡献、知识网络乃至心路历程。这不仅是您个人品牌的动态展示，更是"第二自我"理解您、并与您协同进化的数据基石。</p>
+      <h3>1. 动态个人简历：经验与技能的完整轨迹</h3>
+      <p>这不仅是个体过往经历和习得技能的集合，更是一个动态更新的图谱。它向AI清晰展示了个体知识结构和能力边界的演化历程，是AI理解"我是谁"、"我能做什么"的基础，从而提供与个体经验相匹配的建议与支持。</p>
     </div>
     <div class="pillar">
-      <h3>个性化认知内核：您的思维映像</h3>
-      <p>"第二自我"的核心在于其个性化的认知内核。它致力于深度学习和模拟您的价值观、知识体系结构、独特思考模式、沟通风格及决策偏好。以此为基础，"第二自我"能够进行与您"心意相通"的理解、推理与创造，成为真正懂您的AI参谋与执行者。</p>
+      <h3>2. 个性化认知内核：思维与决策的独特模式</h3>
+      <p>深入表征个体的核心价值观、思考方式、学习偏好、沟通风格和决策模式。AI通过理解这一认知内核，才能真正"知道我如何思考"，进而提供与个体思维习惯相契合的分析、洞察和解决方案，实现"心有灵犀"般的协作。</p>
     </div>
     <div class="pillar">
-      <h3>项目驱动的实践智慧：您的成长引擎</h3>
-      <p>"第二自我"并非静止不变，它将在您参与的每一个项目（例如同步进行的12个核心项目）中学习、实践并与您共同进化。实践是智慧的源泉，项目是"第二自我"持续迭代、淬炼认知、提升协同能力的动态引擎。它将是您复盘得失、沉淀经验、挑战新高的得力助手。</p>
+      <h3>3. "十二常新"项目集：目标与实践的即时映射</h3>
+      <p>聚焦于个体当前正在积极投入的、例如12个核心项目，代表了个体当前的关注点、目标、挑战和成长方向。AI通过接入这些动态的项目信息，能够理解"我正在做什么"、"我的目标是什么"，从而提供与当前任务高度相关的、即时有效的支持与资源。</p>
     </div>
   </section>
 
   <footer class="conclusion">
-    <p>通过"第二自我"的构想与实践，SiCoreLadder 旨在将深度人机协作推向新的高度。我们相信，当AI能够真正理解、尊重并放大个体独特性时，它将赋能每个人实现前所未有的创造力与自我超越。这，就是我们致力于探索与构建的人机共生未来。</p>
+    <p>通过这三个维度的信息整合，AI能够对个体形成一个全面而深入的理解，从而提供真正量身定制的、上下文感知的辅助。这正是SiCoreLadder探索深度人机协作的核心路径——让AI成为基于个体完整上下文的、强大的赋能工具，最终回归到"自己才是自己最好的良师益友"这一本源，并通过AI将其效能极大化。</p>
   </footer>
 </div>
 
