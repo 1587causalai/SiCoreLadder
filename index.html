@@ -32,7 +32,7 @@
       basePath: dynamicBasePath, // <-- USE THE DYNAMICALLY DETERMINED basePath
       coverpage: true, 
       maxLevel: 4,        
-      subMaxLevel: 2,     
+      subMaxLevel: isGitHubPages ? 0 : 2,     
       auto2top: true,     
       sidebarDisplayLevel: 1, 
     }
