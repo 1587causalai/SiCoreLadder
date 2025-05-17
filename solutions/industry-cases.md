@@ -81,10 +81,11 @@
   }
 </style>
 
+
 <div class="cases-container">
   <header class="cases-header">
     <h1>行业应用案例</h1>
-    <p class="sub-title">探索 SiCoreLadder AI 技术在各行各业的实践与价值。</p>
+    <p class="sub-title">探索 芯梯科技 AI 技术在各行各业的实践与价值。</p>
   </header>
 
   <section class="cases-grid">
@@ -111,6 +112,6 @@
   </section>
 
   <footer class="cases-conclusion">
-    <p>SiCoreLadder 致力于将先进的AI技术应用于各种实际场景，助力企业创新与发展。我们相信，通过深度合作，能够共同发掘AI在更多行业中的巨大潜力。</p>
+    <p>芯梯科技 致力于将先进的AI技术应用于各种实际场景，助力企业创新与发展。我们相信，通过深度合作，能够共同发掘AI在更多行业中的巨大潜力。</p>
   </footer>
 </div> 

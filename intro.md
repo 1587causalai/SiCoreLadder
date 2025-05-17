@@ -1,4 +1,3 @@
-
 <style>
   .intro-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -90,13 +89,13 @@
 
 <div class="intro-container">
   <header class="intro-header">
-    <h1>SiCoreLadder</h1>
+    <h1>芯梯科技</h1>
     <p class="slogan-zh">构建洞察因果的AI，探索深度人机协作，打造以人为本的应用。</p>
     <p class="slogan-en">Causality-seeking AI. Seamless Collaboration. Human-centric Applications.</p>
   </header>
 
   <section class="mission-statement">
-    <p>在人工智能浪潮已然到来，机遇与挑战并存的时代，SiCoreLadder 明确了我们的核心使命与承诺。</p>
+    <p>在人工智能浪潮已然到来，机遇与挑战并存的时代，芯梯科技 明确了我们的核心使命与承诺。</p>
     <p>我们的核心使命是：<strong>构建洞察因果的AI，探索深度人机协作，打造以人为本的应用。</strong></p>
   </section>
 
@@ -116,7 +115,7 @@
   </section>
 
   <footer class="conclusion">
-    <p>简单来说，SiCoreLadder 致力于通过更智慧的AI、更顺畅的协作、更贴心的应用，让AI真正为每个人服务。我们正在为这个激动人心的未来铺设坚实的道路，并期待与志同道合的伙伴一同探索AI的无限可能。</p>
+    <p>简单来说，芯梯科技 致力于通过更智慧的AI、更顺畅的协作、更贴心的应用，让AI真正为每个人服务。我们正在为这个激动人心的未来铺设坚实的道路，并期待与志同道合的伙伴一同探索AI的无限可能。</p>
   </footer>
 </div>
 

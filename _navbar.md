@@ -1,5 +1,5 @@
 *   [Home](/)
-*   [关于SiCoreLadder](intro.md)
+*   [关于芯梯科技](intro.md)
 *   [技术基石](core_technology.md)
 *   [协作智能](projects/human_collaboration.md)
 *   [行业赋能](solutions/industry-cases.md)
