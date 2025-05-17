@@ -20,29 +20,17 @@
 
 这些文档共同构成了 SiCoreLadder 的思想内核、战略蓝图和行动指南。
 
-1.  **`VISION_AND_MISSION_zh.md` (公司愿景、使命与实践路径 - 中文版)**
+1.  **`VISION_AND_MISSION.md` (公司愿景、使命与实践路径 - 中文版)**
     *   **功能：** 最核心的纲领性文件。详细阐述 SiCoreLadder 的核心使命（三大战略方向："构建洞察因果的AI，探索深度人机协作，打造以人为本的应用"）、我们实现这些使命的独特方法论（SiCore 技术引擎 + Ladder 实践阶梯），以及我们对AI赋能未来的长远愿景和指导原则。
     *   **定位：** 公司的**身份认同**、**战略蓝图**和**行动总纲**。
 
-2.  **`VISION_AND_MISSION.md` (Company Vision, Mission & Path - 英文版)**
-    *   **功能：** `VISION_AND_MISSION_zh.md` 的英文对应版本，作为核心理念的英文参考。
-    *   **定位：** 中文版核心纲领的**英文参考版本**。
-
-3.  **`FOUNDATIONAL_QUESTIONS_zh.md` (SiCoreLadder 的根本性追问 - 中文版)**
+2.  **`FOUNDATIONAL_QUESTIONS.md` (SiCoreLadder 的根本性追问 - 中文版)**
     *   **功能：** 深入探讨创建 SiCoreLadder 的最根本动机（为何必要？为何是我们？如何造福人类？）。这些问题的回答基于我们明确的三大核心工作方向，阐释了公司存在的深层理由。
     *   **定位：** 公司的**哲学基石**、**价值根基**和**行动的内在驱动力**。
 
-4.  **`FOUNDATIONAL_QUESTIONS.md` (Foundational Questions for SiCoreLadder - 英文版)**
-    *   **功能：** `FOUNDATIONAL_QUESTIONS_zh.md` 的英文对应版本，作为根本性追问的英文参考。
-    *   **定位：** 中文版根本性追问的**英文参考版本**。
-
-5.  **`README_zh.md` (项目入口说明 - 中文版)**
+3.  **`README.md` (项目入口说明 - 中文版)**
     *   **功能：** 项目的中文总览和入口。简要介绍 SiCoreLadder 的核心使命（构建洞察因果的AI，探索深度人机协作，打造以人为本的应用）、Slogan、主要文档链接，并引导访问者深入了解。
     *   **定位：** 项目的**中文名片**和**快速导航**。
-
-6.  **`README.md` (Project Entry Point - 英文版)**
-    *   **功能：** `README_zh.md` 的英文对应版本，Slogan 及核心使命与中文版对应。
-    *   **定位：** 项目的**英文版参考入口**。
 
 ## 二、技术实现与项目展示
 
@@ -73,12 +61,12 @@
     *   **定位：** 网站的**第一印象**和**主要面向国内用户的流量入口**。
 
 4.  **`_sidebar.md` (Docsify 侧边导航栏 - 本地使用)**
-    *   **功能：** 定义 Docsify 网站的侧边导航结构，主要用于本地开发和查阅，包含较全面的文档链接（包括中英文及内部文档）。通过 `index.html` 中的 `loadSidebar: !isGitHubPages` 配置实现动态加载。
-    *   **定位：** 网站的**本地开发导航工具**和**完整内容索引**。
+    *   **功能：** 定义 Docsify 网站的侧边导航结构，服务于**内部详细查阅和开发场景**，代表了项目文档的**完整视图**。它主要用于本地开发和查阅，包含较全面的文档链接（包括中英文及内部文档）。通过 `index.html` 中的 `loadSidebar: !isGitHubPages` 配置实现动态加载。
+    *   **定位：** 网站的**本地开发导航工具**、**完整内容索引**，是项目**内部视角的核心导航**。
 
 5.  **`_navbar.md` (Docsify 顶部导航栏 - 公开站点使用)**
-    *   **功能：** 定义 Docsify 公开网站的顶部导航结构，链接到核心的中文内容页面，包括：公司简介 (`intro.md`)、技术核心 (`core_technology.md`)、人机协作愿景 (`projects/human_collaboration.md`)、行业赋能 (`solutions/industry-cases.md`)以及联系我们 (`contact.md`)。
-    *   **定位：** 公开网站的**主要用户导航**。
+    *   **功能：** 定义 Docsify 公开网站的顶部导航结构，服务于**公开展示和品牌形象塑造场景**，代表了项目文档面向公众的**精炼视图**。它链接到核心的中文内容页面，包括：公司简介 (`intro.md`)、技术核心 (`core_technology.md`)、人机协作愿景 (`projects/human_collaboration.md`)、行业赋能 (`solutions/industry-cases.md`)以及联系我们 (`contact.md`)。
+    *   **定位：** 公开网站的**主要用户导航**，是项目**外部视角的核心导航**，体现了公司对外沟通的正式界面。
 
 6.  **`.cursorrules` (Cursor AI 行为规则)**
     *   **功能：** 定义了与 AI 助手（如 Gemini）协作时的一些特定指示和偏好，以确保沟通和协作的顺畅高效。

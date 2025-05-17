@@ -1,7 +1,8 @@
 # SiCoreLadder
 
 **标语 (中文):** 构建洞察因果的AI，探索深度人机协作，打造以人为本的应用。
-    **Slogan (English):** Causality-seeking AI. Seamless Collaboration. Human-centric Applications.
+
+**Slogan (English):** Causality-seeking AI. Seamless Collaboration. Human-centric Applications.
 
 ---
 
@@ -11,21 +12,19 @@
 2.  **探索深度人机协作：** 创新个性化且高效、深度融合的人机交互模型与框架，使AI成为真正的伙伴。
 3.  **打造以人为本的应用：** 将先进的AI能力和协作洞见转化为解决实际需求、提升个体能力的实用、且真正以人为中心的AI应用。
 
-我们通过独特的方法实现这一目标：依托我们研究持续精进的 **SiCore (坚实智能核心)**，并运用 **Ladder (务实攀登阶梯)** 的方法论——一个贯穿于我们所有工作的"观察-创造-反思"的循环。我们的目标是让先进的AI普惠每一个独特的个体，并深切尊重人的价值与体验。
+我们通过独特的方法实现这一目标：依托我们研究持续精进的 **SiCore (坚实智能核心)** ，并运用 **Ladder (务实攀登阶梯)** 的方法论——一个贯穿于我们所有工作的"观察-创造-反思"的循环。我们的目标是让先进的AI普惠每一个独特的个体，并深切尊重人的价值与体验。
 
 ## 核心理念与实践文档
 
 深入了解我们的理念与实践：
 
-1.  **[愿景、使命与实践路径 (中文)](./VISION_AND_MISSION_zh.md)**
+1.  **[愿景、使命与实践路径](./VISION_AND_MISSION.md)**
     *   **内容:** 阐述 SiCoreLadder 的核心使命（三大战略方向）、我们的独特方法论（SiCore + Ladder）以及我们对AI赋能未来的愿景。
     *   **定位:** 公司的**身份**、**战略蓝图**和**行动纲领**。
-    *   **[Vision & Mission (English)](./VISION_AND_MISSION.md)** (英文版本，待更新以匹配中文版最新内容)
 
-2.  **[根本性追问 (中文)](./FOUNDATIONAL_QUESTIONS_zh.md)**
+2.  **[根本性追问](./FOUNDATIONAL_QUESTIONS.md)**
     *   **内容:** 探讨创建 SiCoreLadder 的根本动机（为何必要？为何是我？如何造福人类？）。
     *   **定位:** 公司存在的**根本理由**、**哲学基石**和**价值根基**。
-    *   **[Foundational Questions (English)](./FOUNDATIONAL_QUESTIONS.md)** (英文版本)
 
 ## 当前焦点
 
