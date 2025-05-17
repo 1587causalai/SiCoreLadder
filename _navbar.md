@@ -1,4 +1,4 @@
-*   [Home](/)
+*   [主页](/)
 *   [关于芯梯科技](intro.md)
 *   [技术基石](core_technology.md)
 *   [协作智能](projects/human_collaboration.md)
