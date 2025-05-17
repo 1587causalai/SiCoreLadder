@@ -21,8 +21,13 @@
   <script>
     // Dynamically set basePath based on hostname
     const repoName = 'SiCoreLadder'; // Define your repository name here
-    const isGitHubPages = window.location.hostname.endsWith('github.io');
-    const dynamicBasePath = isGitHubPages ? `/${repoName}/` : '/'; // Ensure this variable name is unique if previous 'basePath' was used globally
+    
+    // UPDATED isGitHubPages CHECK:
+    const currentHostname = window.location.hostname;
+    const isGitHubPages = currentHostname.endsWith('github.io') || 
+                          currentHostname === 'YOUR_CUSTOM_DOMAIN_HERE'; // <-- *** REPLACE THIS WITH YOUR ACTUAL CUSTOM DOMAIN IF YOU USE ONE ***
+
+    const dynamicBasePath = isGitHubPages ? `/${repoName}/` : '/'; 
 
     window.$docsify = {
       name: 'SiCoreLadder',
