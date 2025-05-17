@@ -9,7 +9,7 @@
 
 <!-- 行动号召按钮 -->
 [Get Started](/README.md) 
-[核心理念 (中文)](/VISION_AND_MISSION_zh.md)
+[核心理念](/VISION_AND_MISSION.md)
 
 <!-- 
 可选：项目名称或Logo (如果需要，可以取消注释并替换)
