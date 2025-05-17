@@ -1,6 +1,6 @@
 *   [Home](/)
 *   [SiCoreLadder简介](intro.md)
-*   [技术基石](product/core_technology.md)
+*   [技术基石](core_technology.md)
 *   [协作智能](projects/human_collaboration.md)
 *   [行业赋能](solutions/industry-cases.md)
 *   [<img src="assets/Kabipula.png" alt="吉祥物" style="height: 20px; vertical-align: middle; margin-right: 5px;" />联系我们](contact.md) 
