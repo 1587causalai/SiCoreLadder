@@ -14,10 +14,6 @@
       padding-left: 0 !important; /* Remove any default padding */
       margin-left: 15px; /* Optional: Add a small margin to align with page content */
     }
-    body.public-no-sidebar .sidebar-toggle,
-    body.public-no-sidebar aside.sidebar {
-      display: none !important;
-    }
   </style>
 </head>
 <body>
@@ -27,10 +23,6 @@
     const repoName = 'SiCoreLadder'; // Define your repository name here
     const isGitHubPages = window.location.hostname.endsWith('github.io');
     const dynamicBasePath = isGitHubPages ? `/${repoName}/` : '/'; // Ensure this variable name is unique if previous 'basePath' was used globally
-
-    if (isGitHubPages) {
-      document.body.classList.add('public-no-sidebar');
-    }
 
     window.$docsify = {
       name: 'SiCoreLadder',
