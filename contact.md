@@ -18,6 +18,13 @@
     color: #2a7ae2; /* Consistent blue color */
     margin-bottom: 0.3em;
   }
+  .mascot-image {
+    display: block;
+    margin: 20px auto 30px auto; /* Added more bottom margin */
+    max-width: 250px; /* Increased size slightly */
+    height: auto;
+    border-radius: 8px; /* Optional: for rounded corners */
+  }
   .contact-intro-text {
     font-size: 1.1em;
     color: #555;
@@ -71,6 +78,8 @@
   <header class="contact-header">
     <h1>联系我们</h1>
   </header>
+
+  <img src="assets/Kabipula.png" alt="公司吉祥物卡比扒拉" class="mascot-image">
 
   <p class="contact-intro-text">
     如果您有任何问题、建议或合作意向，欢迎随时与我们取得联系。
