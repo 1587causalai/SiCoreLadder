@@ -88,7 +88,7 @@
 
   <section class="advantages-intro">
     <p>我们致力于研发能深刻理解世界、洞察事物背后因果关系的AI引擎.</p>
-    <p>我们提出基于个体因果的<strong>分布一致性结果因果模型理论(DiscoSCM)</strong>, 设计了用于异质性因果关系学习的 <strong>Abduction/Action Net 框架</strong>, 构成了有关个性化算法和应用的基石.</p>
+    <p>我们提出了基于个体因果的<strong>分布一致结果因果模型(DiscoSCM)</strong>理论, 设计了学习异质性因果关系的 <strong>Abduction/Action Net 框架</strong>, 构成了有关个性化算法和应用的基石.</p>
   </section>
 
   <hr>
