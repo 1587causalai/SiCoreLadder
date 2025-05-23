@@ -36,10 +36,16 @@ jobs:
         run: npm ci
 
       - name: Build with VitePress
-        run: npm run build
+        run: npm run build -- .
 
       - name: List output directory structure
-        run: ls -R dist
+        run: |
+          echo "Listing ./dist:"
+          ls -R ./dist || echo "./dist not found"
+          echo "Listing ./.vitepress/dist:"
+          ls -R ./.vitepress/dist || echo "./.vitepress/dist not found"
+          echo "Listing current directory:"
+          ls -la
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
