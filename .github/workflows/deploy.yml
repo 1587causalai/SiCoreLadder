@@ -35,19 +35,40 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Debug - Before Build - Current Directory and Contents
+        run: |
+          pwd
+          ls -la
+
       - name: Clean old build outputs (if any)
         run: |
           rm -rf dist
           rm -rf .vitepress/dist 
           echo "Cleaned old build directories"
 
-      - name: Build with VitePress
-        run: npm run build 
+      - name: Build with VitePress (Direct Call with Debug)
+        run: npx vitepress build . --debug
         env:
           NODE_ENV: production
+          DEBUG: "vitepress:*"
 
-      - name: List build output
-        run: ls -Rla dist
+      - name: Debug - After Build - Current Directory and Contents
+        run: |
+          pwd
+          ls -Rla
+
+      - name: Ensure dist directory exists for artifact upload
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "ERROR: 'dist' directory not found in workspace root after build!"
+            echo "Listing current directory contents:"
+            ls -la
+            echo "Checking for .vitepress/dist:"
+            ls -la .vitepress/dist || echo ".vitepress/dist also not found"
+            exit 1
+          fi
+          echo "'dist' directory found in workspace root."
+          ls -Rla dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
