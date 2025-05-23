@@ -35,37 +35,24 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with VitePress
-        run: npm run build -- .
-
-      - name: Debug - List entire workspace after build
-        run: ls -Rla
-
-      - name: Create a known artifact directory
-        run: mkdir -p deployment_dist
-
-      - name: Move build output to known artifact directory
+      - name: Clean old build outputs (if any)
         run: |
-          if [ -d "dist" ]; then
-            echo "Found ./dist, moving contents to ./deployment_dist"
-            mv dist/* deployment_dist/
-            rm -rf dist
-          elif [ -d ".vitepress/dist" ]; then
-            echo "Found ./.vitepress/dist, moving contents to ./deployment_dist"
-            mv .vitepress/dist/* deployment_dist/
-            rm -rf .vitepress/dist
-          else
-            echo "ERROR: Build output directory (dist or .vitepress/dist) not found!"
-            exit 1
-          fi
-      
-      - name: Verify contents of known artifact directory
-        run: ls -Rla deployment_dist
+          rm -rf dist
+          rm -rf .vitepress/dist 
+          echo "Cleaned old build directories"
+
+      - name: Build with VitePress
+        run: npm run build 
+        env:
+          NODE_ENV: production
+
+      - name: List build output
+        run: ls -Rla dist
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: deployment_dist
+          path: dist
 
   deploy:
     environment:
