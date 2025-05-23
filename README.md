@@ -59,7 +59,7 @@ npm run preview
 - **技术基石** (`core_technology.md`) - 核心技术理念
 - **愿景与使命** (`VISION_AND_MISSION.md`) - 公司战略方向
 - **根本性追问** (`FOUNDATIONAL_QUESTIONS.md`) - 公司哲学基石
-- **联系我们** (`contact.md`) - 联系方式和公司信息
+- **联系我们** (`contact.md`) - 联系方式和公司信息 
 
 ## 🚀 部署
 
