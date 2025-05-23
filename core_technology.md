@@ -72,6 +72,33 @@
     background-color: #d1e7ff; /* Darker on hover */
     text-decoration: none;
   }
+  .tech-cta {
+    margin-top: 25px;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+    border-radius: 12px;
+    text-align: center;
+  }
+  .tech-cta p {
+    margin-bottom: 15px;
+    font-size: 1.05em;
+  }
+  .detail-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  }
+  .detail-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+  }
   hr {
     border: 0;
     height: 1px;
@@ -89,6 +116,10 @@
   <section class="advantages-intro">
     <p>我们致力于研发能深刻理解世界、洞察事物背后因果关系的AI引擎.</p>
     <p>我们提出了基于个体因果的<strong>分布一致结果因果模型(DiscoSCM)</strong>理论, 设计了学习异质性因果关系的 <strong>Abduction/Action Net 框架</strong>, 构成了有关个性化算法和应用的基石.</p>
+    <div class="tech-cta">
+      <p>我们的中期目标是构建<strong>洞察因果关系的大语言模型</strong>，用DiscoSCM理念重构所有基座模型的构建流程。</p>
+      <a href="/core_technology_details" class="detail-button">探索完整技术路径 →</a>
+    </div>
   </section>
 
   <hr>
