@@ -1,0 +1,33 @@
+{
+  "name": "sicoreladder",
+  "version": "1.0.0",
+  "description": "芯梯科技 - 构建洞察因果的AI，探索深度人机协作，打造以人为本的应用",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "serve": "vitepress serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1587causalai/SiCoreLadder.git"
+  },
+  "keywords": [
+    "AI",
+    "人工智能",
+    "人机协作",
+    "因果推理",
+    "芯梯科技"
+  ],
+  "author": "芯梯科技 (SiCoreLadder)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1587causalai/SiCoreLadder/issues"
+  },
+  "homepage": "https://github.com/1587causalai/SiCoreLadder#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.36",
+    "vue": "^3.3.11"
+  }
+}
