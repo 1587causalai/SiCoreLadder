@@ -52,28 +52,17 @@ jobs:
           NODE_ENV: production
           DEBUG: "vitepress:*"
 
-      - name: Debug - After Build - Current Directory and Contents
+      - name: Debug - After Build - Check for output directories
         run: |
-          pwd
-          ls -Rla
-
-      - name: Ensure dist directory exists for artifact upload
-        run: |
-          if [ ! -d "dist" ]; then
-            echo "ERROR: 'dist' directory not found in workspace root after build!"
-            echo "Listing current directory contents:"
-            ls -la
-            echo "Checking for .vitepress/dist:"
-            ls -la .vitepress/dist || echo ".vitepress/dist also not found"
-            exit 1
-          fi
-          echo "'dist' directory found in workspace root."
-          ls -Rla dist
+          echo "Listing .vitepress/dist (expected output location):"
+          ls -Rla .vitepress/dist || echo ".vitepress/dist not found or build failed"
+          echo "Listing ./dist (alternative location, should be empty or not exist):"
+          ls -Rla dist || echo "./dist not found or empty as expected"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: .vitepress/dist
 
   deploy:
     environment:
