@@ -9,7 +9,6 @@
 
 <!-- 行动号召按钮 -->
 [Get Started](/intro.md) 
-<!-- [核心理念](/core_concepts/VISION_AND_MISSION.md) -->
 
 <!-- 
 可选：项目名称或Logo (如果需要，可以取消注释并替换)
