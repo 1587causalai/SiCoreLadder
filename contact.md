@@ -4,108 +4,327 @@
     line-height: 1.6;
     color: #333;
     padding: 20px;
-    max-width: 800px; /* Slightly smaller max-width for contact page */
+    max-width: 1100px;
     margin: auto;
   }
   .contact-header {
     text-align: center;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
-    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 50px;
+    padding: 40px;
+    background: linear-gradient(135deg, #f8fbff 0%, #e6f3ff 100%);
+    border-radius: 15px;
+    border-bottom: 3px solid #2a7ae2;
   }
   .contact-header h1 {
-    font-size: 2.5em;
-    color: #2a7ae2; /* Consistent blue color */
-    margin-bottom: 0.3em;
+    font-size: 3em;
+    background: linear-gradient(135deg, #2a7ae2, #4a9eff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5em;
+  }
+  .contact-header .subtitle {
+    font-size: 1.4em;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .contact-header .intro-text {
+    font-size: 1.2em;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  .company-info {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #2a7ae2;
+  }
+  .company-info h2 {
+    font-size: 2.2em;
+    color: #2a7ae2;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+  }
+  .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  .info-item:hover {
+    background: #f0f8ff;
+  }
+  .info-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #2a7ae2, #4a9eff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  .info-content h4 {
+    color: #2a7ae2;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  .info-content p {
+    color: #555;
+    margin: 0;
+    font-size: 1em;
+  }
+  .contact-form {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #4a9eff;
+  }
+  .contact-form h2 {
+    font-size: 2.2em;
+    color: #2a7ae2;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2a7ae2;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #2a7ae2;
+    box-shadow: 0 0 0 3px rgba(42, 122, 226, 0.1);
+  }
+  .form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .submit-btn {
+    background: linear-gradient(135deg, #2a7ae2, #4a9eff);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(42, 122, 226, 0.3);
+  }
+  .contact-methods {
+    background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .contact-methods h2 {
+    font-size: 2.2em;
+    color: #2a7ae2;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(42, 122, 226, 0.2);
+    padding-bottom: 15px;
+  }
+  .methods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  .method-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+  }
+  .method-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(42, 122, 226, 0.15);
+  }
+  .method-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #2a7ae2, #4a9eff);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .method-card h4 {
+    color: #2a7ae2;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+  }
+  .method-card p {
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .method-card a {
+    color: #2a7ae2;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    background: #e6f3ff;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  .method-card a:hover {
+    background: #d1e7ff;
+  }
+  .business-hours {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border-left: 5px solid #ff6b35;
+    margin-bottom: 40px;
+  }
+  .business-hours h2 {
+    font-size: 2em;
+    color: #2a7ae2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .hours-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  .hours-item {
+    text-align: center;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  .hours-item h4 {
+    color: #2a7ae2;
+    margin-bottom: 8px;
+  }
+  .hours-item p {
+    color: #555;
+    margin: 0;
+    font-weight: bold;
+  }
+  .mascot-section {
+    text-align: center;
+    margin: 40px 0;
   }
   .mascot-image {
-    display: block;
-    margin: 30px auto 40px auto; /* Adjusted margin for better spacing */
-    max-width: 220px; /* Slightly reduced size for a cleaner look */
+    max-width: 200px;
     height: auto;
-    border-radius: 8px; /* Optional: for rounded corners */
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
   }
-  .contact-intro-text {
-    font-size: 1.1em;
-    color: #555;
-    margin-bottom: 40px; /* Increased margin */
+  .mascot-image:hover {
+    transform: scale(1.05);
+  }
+  .footer-message {
+    background: linear-gradient(135deg, #ff6b35 0%, #f9ca24 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 30px;
     text-align: center;
+    margin-top: 40px;
   }
-  .contact-details {
-    /* background-color: #f9f9f9; */ /* Removed background */
-    padding: 20px 0; /* Adjusted padding, especially top/bottom */
-    /* border-radius: 8px; */ /* Removed border-radius */
-    margin-bottom: 40px; /* Increased margin */
-    text-align: center;
-    /* box-shadow: 0 2px 5px rgba(0,0,0,0.05); */ /* Removed shadow */
+  .footer-message h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 1.8em;
   }
-  .contact-details h3 {
-    font-size: 1.6em; /* Slightly increased for prominence */
-    color: #2a7ae2;
-    margin-top: 0;
-    margin-bottom: 25px; /* Adjusted margin */
+  .footer-message p {
+    color: white;
+    font-size: 1.2em;
+    opacity: 0.95;
+    margin: 0;
   }
-  .contact-details p {
-    font-size: 1.05em; /* Standardized paragraph font size */
-    color: #444; /* Slightly darker for better readability */
-    margin-bottom: 10px; /* Consistent paragraph spacing */
-  }
-  .contact-details .email-address {
-    font-size: 1.2em; /* Adjusted font size */
-    font-weight: bold;
-    /* padding: 10px 15px; */ /* Removed padding */
-    /* background-color: #ffffff; */ /* Removed background */
-    /* border: 1px dashed #2a7ae2; */ /* Removed border */
-    /* border-radius: 5px; */ /* Removed border-radius */
-    /* display: inline-block; */ /* Let it flow as text or manage with parent */
-    margin-top: 5px; /* Added margin-top for spacing from paragraph above */
-  }
-  .contact-details .email-address a {
-    color: #2a7ae2;
-    text-decoration: none; /* Kept no underline */
-  }
-  .contact-details .email-address a:hover {
-    text-decoration: underline; /* Underline on hover for clear affordance */
-    /* background-color: #e6f3ff; */ /* Removed background hover */
-  }
-  .contact-footer-text {
-    text-align: center;
-    font-size: 1.1em;
-    color: #555; /* Slightly darker for consistency */
-    margin-top: 30px; /* Adjusted margin */
-    padding: 20px 0; /* Adjusted padding, especially top/bottom */
-    /* background-color: #f0f8ff; */ /* Removed background */
-    /* border-radius: 8px; */ /* Removed border-radius */
-    color: #666;
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #f0f8ff; /* Consistent light blue */
-    border-radius: 8px;
+  @media (max-width: 768px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+    .contact-header h1 {
+      font-size: 2.2em;
+    }
   }
 </style>
 
 <div class="contact-container">
-  <header class="contact-header">
-    <h1>联系我们</h1>
-  </header>
-
-  <img src="assets/Kabipula.png" alt="公司吉祥物卡比扒拉" class="mascot-image">
-
-  <p class="contact-intro-text">
-    如果您有任何问题、建议或合作意向，欢迎随时与我们取得联系。
-  </p>
-
-  <section class="contact-details">
-    <h3>我们的联系方式</h3>
-    <p>公司名称：上海芯梯科技有限公司</p>
-    <p>公司地址：上海市金山区卫零北路333弄161号102室</p>
-    <p>我们推荐通过电子邮件与我们沟通，以便我们更高效地处理您的请求：</p>
-    <div class="email-address">
-      <a href="mailto:videshcannataro@gmail.com">videshcannataro@gmail.com</a>
+  <div class="contact-methods">
+    <h2>联系方式</h2>
+    <div style="text-align: center; font-size: 1.1em; line-height: 2;">
+      <p><strong>上海芯梯科技有限公司</strong></p>
+      <p>SiCoreLadder Technology Co., Ltd.</p>
+      <p>📍 上海市金山区卫零北路333弄161号102室</p>
+      <p>📧 tech@sicore-ladder.com</p>
     </div>
-  </section>
-
-  <footer class="contact-footer-text">
-    <p>我们期待您的来信，并会尽快给您回复！</p>
-  </footer>
+  </div>
+  <div class="footer-message">
+  <img src="assets/Kabipula.png" alt="芯梯科技吉祥物 - 卡比扒拉" class="mascot-image">
+    <h3>期待与您携手同行</h3>
+    <p>
+      在AI技术快速发展的时代，我们相信通过深度合作能够创造更大的价值。
+      让我们一起推动因果AI技术的发展，为人类社会带来更智能、更可靠的AI解决方案。
+    </p>
+  </div>
 </div> 

@@ -8,11 +8,85 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
+    /* 导航栏左右分离布局 */
+    .app-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0;
+      padding: 0 25px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,.05);
+      z-index: 10;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+    
     .app-nav > ul {
-      justify-content: flex-start !important; /* For flexbox containers */
-      text-align: left !important; /* For block containers */
-      padding-left: 0 !important; /* Remove any default padding */
-      margin-left: 15px; /* Optional: Add a small margin to align with page content */
+      display: flex;
+      justify-content: space-between !important;
+      align-items: center;
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+      list-style: none;
+    }
+    
+    /* 第一个li（芯梯科技）样式 */
+    .app-nav > ul > li:first-child {
+      margin-right: auto;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .app-nav > ul > li:first-child a {
+      color: #42b983;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+    
+    .app-nav > ul > li:first-child a:hover {
+      color: #42b983;
+      opacity: 0.8;
+    }
+    
+    /* 其他导航项样式 */
+    .app-nav > ul > li:not(:first-child) {
+      margin-left: 20px;
+    }
+    
+    /* 调整主内容区域，避免被导航栏遮挡 */
+    .content {
+      padding-top: 60px;
+    }
+    
+    /* 侧边栏调整 */
+    .sidebar {
+      padding-top: 60px;
+    }
+    
+    /* 封面页调整 */
+    .cover-main {
+      margin-top: 60px !important;
+    }
+    
+    /* 移动端响应式设计 */
+    @media screen and (max-width: 768px) {
+      .app-nav > ul > li:first-child {
+        font-size: 16px;
+      }
+      
+      .app-nav > ul > li:not(:first-child) {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+      
+      .app-nav {
+        padding: 0 15px;
+      }
     }
   </style>
 </head>
